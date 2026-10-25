@@ -3,6 +3,7 @@
 A semantic search app that ranks skincare products by meaning, not just keywords. Filter by budget, product type and K-Beauty.
 
 **Live demo:** https://smart-skincare-finder.streamlit.app/
+![Screenshot](skincare-finder.png)
 
 ## How it works
 Product descriptions and the user's query are converted to vectors with the all-MiniLM-L6-v2 model. Products are ranked by cosine similarity, then filtered by budget, category and origin.
